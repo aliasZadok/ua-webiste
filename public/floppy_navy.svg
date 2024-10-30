@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="26.8485mm" height="25.6943mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 19612.61 18769.48"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:#00112E}
+    .fil3 {fill:#102442}
+    .fil2 {fill:#3C4B6D}
+    .fil5 {fill:#DBD9D0}
+    .fil4 {fill:#FFFDF4}
+    .fil0 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil1" x="2638.37" y="633.45" width="14255" height="6632.99" rx="21.51" ry="18.32"/>
+  <path class="fil2" d="M-0 59.1l3074.2 0 0 6275.07c0,83.35 73.63,151.58 163.63,151.58l13136.95 0c90,0 163.63,-68.23 163.63,-151.58l0 -6275.07 1819.95 0 1254.25 1176.38 0 17534 -19612.61 0 0 -18710.38z"/>
+  <rect class="fil3" x="2305.66" y="8075.17" width="15001.3" height="10694.28"/>
+  <rect class="fil4" x="2799.49" y="8516.61" width="14013.64" height="10252.85"/>
+  <path class="fil5" d="M5919.76 0l10275.68 0c9.42,0 17.02,7.6 17.02,17.02l0 6147.02c0,9.42 -7.6,17.02 -17.02,17.02l-10275.68 0c-9.35,0 -16.95,-7.6 -16.95,-17.02l0 -6147.02c0,-9.42 7.6,-17.02 16.95,-17.02zm5703.17 1225.03l2608.88 0c4.02,0 7.23,3.14 7.23,7.16l0 4493.55c0,4.02 -3.21,7.3 -7.23,7.3l-2608.88 0c-4.02,0 -7.23,-3.29 -7.23,-7.3l0 -4493.55c0,-4.02 3.21,-7.16 7.23,-7.16z"/>
+  <rect class="fil4" x="6448.65" y="387.79" width="537.17" height="553.52" rx="0.81" ry="1.53"/>
+  <rect class="fil4" x="15079.75" y="387.79" width="537.17" height="553.52" rx="0.81" ry="1.53"/>
+  <rect class="fil4" x="858.3" y="17198.34" width="783.27" height="747.71" rx="1.18" ry="2.06"/>
+  <rect class="fil4" x="18124.91" y="17198.34" width="783.27" height="747.71" rx="1.18" ry="2.06"/>
+  <rect class="fil3" x="2305.66" y="16852.46" width="15001.3" height="1917.02"/>
+ </g>
+</svg>

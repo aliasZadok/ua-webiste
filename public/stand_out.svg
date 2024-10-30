@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="6.8138mm" height="6.9194mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 719.9 731.06"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil3 {fill:none}
+    .fil4 {fill:#C92B7A}
+    .fil1 {fill:#EE589F}
+    .fil2 {fill:#FF72B7}
+    .fil5 {fill:#FFABD4}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M598.28 0l-453.38 0 0 405.41 453.38 0 0 -405.41z"/>
+   </clipPath>
+   <clipPath id="id1">
+    <path d="M524.03 559.37l-304.87 0 0 120.13 304.87 0 0 -120.13z"/>
+   </clipPath>
+   <clipPath id="id2">
+    <path d="M582.81 731.06l-422.41 0 0 -51.56 422.41 0 0 51.56z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil1" points="598.28,0 144.9,0 144.9,405.41 598.28,405.41 "/>
+  <g style="clip-path:url(#id0)">
+   <g id="_1516991401696">
+    <rect class="fil2" x="125.6" y="-6.43" width="242.01" height="418.27"/>
+   </g>
+  </g>
+  <polygon class="fil3" points="598.28,0 144.9,0 144.9,405.41 598.28,405.41 "/>
+  <rect class="fil4" x="316.42" y="405.41" width="110.34" height="153.96"/>
+  <polygon class="fil1" points="524.03,559.37 219.16,559.37 219.16,679.5 524.03,679.5 "/>
+  <g style="clip-path:url(#id1)">
+   <g id="_1516991403712">
+    <rect class="fil2" x="193.25" y="498.74" width="174.36" height="198"/>
+   </g>
+  </g>
+  <polygon class="fil3" points="524.03,559.37 219.16,559.37 219.16,679.5 524.03,679.5 "/>
+  <polygon class="fil2" points="582.81,731.06 160.39,731.06 160.39,679.5 582.81,679.5 "/>
+  <g style="clip-path:url(#id2)">
+   <g id="_1516991404912">
+    <rect class="fil5" x="156.35" y="548.47" width="211.25" height="198"/>
+   </g>
+  </g>
+  <polygon class="fil3" points="582.81,731.06 160.39,731.06 160.39,679.5 582.81,679.5 "/>
+  <polygon class="fil1" points="719.9,116.29 521.82,116.29 521.82,173.79 661.02,173.79 661.02,231.63 521.82,231.63 521.82,289.14 719.9,289.14 "/>
+  <polygon class="fil2" points="-0,116.29 198.08,116.29 198.08,173.79 58.88,173.79 58.88,231.63 198.08,231.63 198.08,289.14 -0,289.14 "/>
+ </g>
+</svg>

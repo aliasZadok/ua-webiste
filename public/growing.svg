@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="4.2138mm" height="8.4428mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 225.62 452.05"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil4 {fill:none}
+    .fil1 {fill:#C92B7A}
+    .fil3 {fill:#D33D87}
+    .fil6 {fill:#EE589F}
+    .fil2 {fill:#FF72B7}
+    .fil5 {fill:#FFABD4}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M3.26 267.34l210.95 0 0 51.53 -210.95 0 0 -51.53z"/>
+   </clipPath>
+   <clipPath id="id1">
+    <path d="M16.88 318.78l183.7 0 0 133.27 -183.7 0 0 -133.27z"/>
+   </clipPath>
+   <clipPath id="id2">
+    <path d="M117.62 197.28l39.63 -115.8 -68.77 -81.48 -45.08 96.24 74.22 101.04z"/>
+   </clipPath>
+   <clipPath id="id3">
+    <path d="M117.62 197.26l-71.93 -61.47 -45.69 30.87 27.23 37.89 90.39 -7.28z"/>
+   </clipPath>
+   <clipPath id="id4">
+    <path d="M117.64 197.26l100.71 -13.67 7.26 -87.44 -58.74 7.42 -49.23 93.69z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil1" x="109.15" y="195.67" width="15.55" height="74.21"/>
+  <polygon class="fil2" points="3.26,267.34 214.21,267.34 214.21,318.87 3.26,318.87 "/>
+  <g style="clip-path:url(#id0)">
+   <g id="_1481001310944">
+    <rect class="fil3" x="108.72" y="260" width="114.59" height="66.21"/>
+   </g>
+  </g>
+  <polygon class="fil4" points="3.26,267.34 214.21,267.34 214.21,318.87 3.26,318.87 "/>
+  <polygon class="fil5" points="16.88,318.78 200.59,318.78 200.59,452.05 16.88,452.05 "/>
+  <g style="clip-path:url(#id1)">
+   <g id="_1481001312000">
+    <rect class="fil6" x="108.72" y="260" width="114.59" height="195.86"/>
+   </g>
+  </g>
+  <polygon class="fil4" points="16.88,318.78 200.59,318.78 200.59,452.05 16.88,452.05 "/>
+  <polygon class="fil6" points="117.62,197.28 157.25,81.48 88.48,0 43.4,96.24 "/>
+  <g style="clip-path:url(#id2)">
+   <g id="_1481001312432">
+    <path id="_1" class="fil2" d="M86.56 -10.59c2.25,1 34.45,230.91 34.45,230.91l-69.44 -2.99 -39.44 -124.58 74.43 -103.34z"/>
+   </g>
+  </g>
+  <polygon class="fil4" points="117.62,197.28 157.25,81.48 88.48,0 43.4,96.24 "/>
+  <polygon class="fil6" points="117.62,197.26 45.69,135.78 -0,166.65 27.23,204.54 "/>
+  <g style="clip-path:url(#id3)">
+   <g id="_1481001310032">
+    <path id="_1_0" class="fil2" d="M-28.8 144.67c2.24,1 161.78,57.63 159.87,57.87l-157.57 15.2 -2.3 -73.07z"/>
+   </g>
+  </g>
+  <polygon class="fil4" points="117.62,197.26 45.69,135.78 -0,166.65 27.23,204.54 "/>
+  <polygon class="fil6" points="117.64,197.26 218.36,183.59 225.62,96.15 166.88,103.57 "/>
+  <g style="clip-path:url(#id4)">
+   <g id="_1481001310560">
+    <path id="_1_1" class="fil2" d="M237.16 84.57c2.24,1 10.33,108.86 8.43,109.17l-150.65 24.97 142.22 -134.13z"/>
+   </g>
+  </g>
+  <polygon class="fil4" points="117.64,197.26 218.36,183.59 225.62,96.15 166.88,103.57 "/>
+ </g>
+</svg>
