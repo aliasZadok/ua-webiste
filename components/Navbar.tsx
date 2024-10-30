@@ -10,7 +10,6 @@ const Navbar = () => {
   const pathname = usePathname();
   const isHeroPage = pathname === '/' || pathname === '/about';
   const isHomePage = pathname === '/';
-  const heroRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
