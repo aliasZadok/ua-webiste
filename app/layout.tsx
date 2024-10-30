@@ -2,7 +2,6 @@ import React from 'react';
 import { Metadata } from 'next';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import { AuthProvider } from '@/context/AuthContext';
 import '@/app/globals.css';
 
 export const metadata: Metadata = {
@@ -25,11 +24,9 @@ export default function RootLayout({
         <link rel="manifest" href="/favicon/site.webmanifest" />
       </head>
       <body className="flex flex-col min-h-screen">
-        <AuthProvider>
           <Navbar />
           {children}
           <Footer />
-        </AuthProvider>
       </body>
     </html>
   );
