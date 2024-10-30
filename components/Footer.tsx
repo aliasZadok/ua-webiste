@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
             className="absolute left-1/2 bottom-0 w-[691px] h-[348px] bg-[#5a2b7f] text-[#FFFDF4] p-14 transform -translate-x-1/2 z-20"
           >
             <h2 className="text-[40.495px] font-medium leading-[110%] mb-5 text-center">ABOUT US</h2>
-            <p className="text-[26.996px] font-medium leading-[140%] text-center">
+            <p className="text-[26.996px] font-normal leading-[140%] text-center">
               We are a strategic branding agency in Hyderabad, who help small businesses look & feel unmistakably premium
             </p>
           </div>

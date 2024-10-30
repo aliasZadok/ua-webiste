@@ -11,6 +11,7 @@ const FoundersStory: React.FC = () => {
   const sectionRef = useRef<HTMLElement>(null);
   const foundersRef = useRef<(HTMLDivElement | null)[]>([]);
   const yellowRectRef = useRef<HTMLDivElement>(null);
+  const pinRef = useRef<HTMLDivElement>(null);
 
   const setFounderRef = (el: HTMLDivElement | null) => {
     foundersRef.current.push(el);
@@ -21,38 +22,66 @@ const FoundersStory: React.FC = () => {
 
     const founders = foundersRef.current.filter(Boolean);
     const yellowRect = yellowRectRef.current;
+    const pin = pinRef.current;
 
+    // Initial states
     gsap.set(founders, { opacity: 0, y: 50 });
-    if (yellowRect) gsap.set(yellowRect, { y: 100 });
+    if (yellowRect) {
+      gsap.set(yellowRect, { 
+        y: 100,
+        rotation: 0,
+        transformOrigin: 'center center'
+      });
+    }
+    if (pin) {
+      gsap.set(pin, {
+        x: '-200%', // Start from far left
+        y: '-200%', // Start from far up
+        opacity: 0
+      });
+    }
 
+    // Animate founders
     founders.forEach((founder) => {
       gsap.to(founder, {
         opacity: 1,
         y: 0,
-        duration: 1.5, // Increased duration for a slower fade-in
+        duration: 1.5,
         ease: 'power2.out',
         scrollTrigger: {
           trigger: founder,
           start: 'top 80%',
           end: 'bottom 20%',
           toggleActions: 'play none none reverse',
-          scrub: 0.5, // Added scrub for smoother animation during scroll
+          scrub: 0.5,
         },
       });
     });
 
-    if (yellowRect) {
-      gsap.to(yellowRect, {
-        y: 0,
-        duration: 1,
-        ease: 'power2.out',
+    // Timeline for yellow rectangle and pin animations
+    if (yellowRect && pin) {
+      const tl = gsap.timeline({
         scrollTrigger: {
           trigger: yellowRect,
           start: 'top 80%',
           end: 'bottom 20%',
           toggleActions: 'play none none reverse',
-        },
+        }
       });
+
+      tl.to(yellowRect, {
+        y: 0,
+        rotation: 1.484, // Specific rotation angle requested
+        duration: 1,
+        ease: 'power2.out'
+      })
+      .to(pin, {
+        x: 0,
+        y: 0,
+        opacity: 1,
+        duration: 0.8,
+        ease: 'power2.out'
+      }, '-=0.8'); // Start pin animation slightly before yellow rectangle finishes
     }
 
     return () => {
@@ -98,9 +127,9 @@ const FoundersStory: React.FC = () => {
         
         {/* Yellow rectangle with additional information */}
         <div ref={yellowRectRef} className="mt-16 flex justify-center">
-          <div className="relative w-full max-w-[929px] bg-[#fcee4c]" style={{ aspectRatio: '929 / 386' }}>
-            <div className="absolute -top-4 -left-4">
-              <Image src="/pin.svg" alt="Pin" width={40} height={40} className='w-[40px] h-[40px]'/>
+          <div className="relative w-full max-w-[801px] bg-[#fcee4c]" style={{ aspectRatio: '801 / 398' }}>
+            <div ref={pinRef} className="absolute -top-9 -left-9">
+              <Image src="/pin.svg" alt="Pin" width={62} height={62} className='w-[62px] h-[62px]'/>
             </div>
             <div className="absolute inset-0 p-4 sm:p-6 md:p-8 flex flex-col justify-center items-center">
               <div className="max-w-3xl text-center">

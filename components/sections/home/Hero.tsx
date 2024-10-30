@@ -25,11 +25,10 @@ const Hero: React.FC = () => {
     const images = container.querySelectorAll('.logo-image');
     if (images.length !== 2) return;
 
-    // Set initial state
     gsap.set(images[1], { opacity: 0 });
 
-    const transitionDuration = 0.4; // Faster transition
-    const stayDuration = 1.5;      // Shorter display time
+    const transitionDuration = 0.4;
+    const stayDuration = 1.5;
 
     const transition = () => {
       const tl = gsap.timeline({
@@ -42,17 +41,16 @@ const Hero: React.FC = () => {
         }
       });
 
-      // Smooth fade transition
       tl.to(images[1], {
         opacity: 1,
         duration: transitionDuration,
-        ease: "sine.inOut" // Smoother easing function
+        ease: "sine.inOut"
       })
       .to(images[0], {
         opacity: 0,
         duration: transitionDuration,
         ease: "sine.inOut"
-      }, "<"); // Simultaneous transition
+      }, "<");
     };
 
     const intervalId = setInterval(transition, (transitionDuration + stayDuration) * 1000);
@@ -61,7 +59,7 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <section className="bg-[#fffdf4] py-28">
+    <section className="bg-[#fffdf4] h-[calc(100vh-70px)] flex items-center">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="w-full md:w-1/2 mb-8 md:mb-0 flex justify-center items-center">
