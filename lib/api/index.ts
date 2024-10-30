@@ -1,10 +1,15 @@
 import { User, Post, PortfolioItem } from '@/types';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || '';
-
 // Generic fetch function with error handling
 async function fetchFromAPI<T>(endpoint: string, options?: RequestInit): Promise<T> {
-  const response = await fetch(`${API_BASE_URL}${endpoint}`, options);
+  const response = await fetch(`/api${endpoint}`, {
+    ...options,
+    headers: {
+      'Content-Type': 'application/json',
+      ...(options?.headers || {})
+    }
+  });
+  
   if (!response.ok) {
     throw new Error(`API error: ${response.status} ${response.statusText}`);
   }
@@ -14,14 +19,12 @@ async function fetchFromAPI<T>(endpoint: string, options?: RequestInit): Promise
 // User-related API calls
 export const userAPI = {
   login: async (email: string, password: string): Promise<User> => {
-    // TODO: Implement actual login logic
-    return fetchFromAPI<User>('/login', {
+    return fetchFromAPI<User>('/user', {
       method: 'POST',
       body: JSON.stringify({ email, password }),
     });
   },
   getCurrentUser: async (): Promise<User | null> => {
-    // TODO: Implement actual user fetching logic
     return fetchFromAPI<User | null>('/user');
   },
 };
