@@ -19,6 +19,18 @@ const AboutHero: React.FC = () => {
 
     if (!heroElement || !contentElement) return;
 
+    // Dispatch custom event with hero height
+    const updateHeroHeight = () => {
+      const height = heroElement.offsetHeight;
+      window.dispatchEvent(new CustomEvent('heroHeightChange', { detail: height }));
+    };
+
+    // Initial measurement
+    updateHeroHeight();
+
+    // Update on resize
+    window.addEventListener('resize', updateHeroHeight);
+
     // Set the height of the hero section to be the viewport height
     gsap.set(heroElement, { height: '100vh' });
 
@@ -45,6 +57,7 @@ const AboutHero: React.FC = () => {
 
     return () => {
       ScrollTrigger.getAll().forEach(t => t.kill());
+      window.removeEventListener('resize', updateHeroHeight);
     };
   }, []);
 
